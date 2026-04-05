@@ -2,14 +2,14 @@
 import { useState } from 'react'
 
 const SERVICE_TYPES: Record<string, string[]> = {
-  tree-service: ['Lawn Mowing Service', 'Tree Service Design & Install', 'Tree Trimming / Removal', 'Sprinkler System Install', 'Mulch & Cleanup', 'Lawn Care Program (fertilize/weed)', 'Other'],
+  treeService: ['Lawn Mowing Service', 'TreeService Design & Install', 'Tree Trimming / Removal', 'Sprinkler System Install', 'Mulch & Cleanup', 'Tree Service Program (fertilize/weed)', 'Other'],
   electrician: ['Panel Upgrade', 'EV Charger Install', 'Outlet / Switch Work', 'Rewiring', 'Generator Install', 'Troubleshooting', 'Other'],
   roofing: ['Roof Repair', 'Full Replacement', 'Storm Damage', 'Gutter Install', 'Inspection', 'Other'],
   hvac: ['AC Repair', 'AC Replacement', 'Furnace Repair', 'Furnace Replacement', 'Tune-Up', 'Duct Cleaning', 'Other'],
 }
 
 const ACCENT: Record<string, { btn: string; ring: string }> = {
-  tree-service: {
+  treeService: {
     btn: 'w-full bg-green-600 text-white font-bold py-3 rounded-lg hover:bg-green-700 transition-colors disabled:opacity-70',
     ring: 'w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500',
   },
@@ -27,9 +27,9 @@ const ACCENT: Record<string, { btn: string; ring: string }> = {
   },
 }
 
-export default function LeadCaptureForm({ city, stateAbbr, serviceType = 'tree-service' }: { city: string; stateAbbr: string; serviceType?: string }) {
-  const services = SERVICE_TYPES[serviceType] || SERVICE_TYPES.tree-service
-  const accent = ACCENT[serviceType] || ACCENT.tree-service
+export default function LeadCaptureForm({ city, stateAbbr, serviceType = 'treeService' }: { city: string; stateAbbr: string; serviceType?: string }) {
+  const services = SERVICE_TYPES[serviceType] || SERVICE_TYPES.treeService
+  const accent = ACCENT[serviceType] || ACCENT.treeService
   const [form, setForm] = useState({ name: '', email: '', phone: '', selectedService: services[0], message: '' })
   const [submitting, setSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)

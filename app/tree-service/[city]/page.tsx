@@ -7,15 +7,12 @@ import LeadCaptureForm from '@/components/LeadCaptureForm'
 
 interface LandCityData {
   slug: string; city: string; state: string; stateAbbr: string; population: number
-  tree-serviceSeason: string; climateNote: string
+  treeServiceSeason: string; climateNote: string
   costs: {
-    lawnMowingWeekly: { min: number; max: number; avg: number }
-    lawnMowingMonthly: { min: number; max: number; avg: number }
-    landscapeDesignInstall: { min: number; max: number; avg: number }
-    sprinklerInstall: { min: number; max: number; avg: number }
-    treeTrimmingSmall: { min: number; max: number; avg: number }
-    treeTrimmingLarge: { min: number; max: number; avg: number }
-    mulchInstall: { min: number; max: number; avg: number }
+    treeRemoval: { min: number; max: number; avg: number }
+    treeTrimming: { min: number; max: number; avg: number }
+    stumpGrinding: { min: number; max: number; avg: number }
+    emergencyCleanup: { min: number; max: number; avg: number }
   }
   providers: { name: string; rating: number; reviews: number; phone: string; address: string; services: string[]; licensed: boolean; insured: boolean; yearsInBusiness: number }[]
   faqs: { question: string; answer: string }[]
@@ -36,29 +33,26 @@ export async function generateMetadata({ params }: { params: { city: string } })
   const d = getCityData(params.city)
   if (!d) return {}
   const year = new Date().getFullYear()
-  const title = `Best Tree Service Companies in ${d.city}, ${d.stateAbbr} (${year}) — Lawn Care & More`
-  const desc = `Top-rated landscapers in ${d.city}, ${d.stateAbbr}. Lawn mowing from $${d.costs.lawnMowingWeekly.min}/visit, tree-service from $${d.costs.landscapeDesignInstall.min.toLocaleString()}. Licensed, insured, free quotes.`
+  const title = `Best TreeService Companies in ${d.city}, ${d.stateAbbr} (${year}) — Tree Service & More`
+  const desc = `Top-rated tree service experts in ${d.city}, ${d.stateAbbr}. Lawn mowing from $${d.costs.lawnMowingWeekly.min}/visit, treeService from $${d.costs.landscapeDesignInstall.min.toLocaleString()}. Licensed, insured, free quotes.`
   return {
     title, description: desc,
-    keywords: [`tree-service ${d.city}`, `lawn care ${d.city} ${d.stateAbbr}`, `landscapers ${d.city}`, `lawn mowing ${d.city}`, `tree trimming ${d.city}`, `tree-service companies ${d.city}`],
+    keywords: [`treeService ${d.city}`, `tree service ${d.city} ${d.stateAbbr}`, `tree service experts ${d.city}`, `tree trimming ${d.city}`, `tree trimming ${d.city}`, `treeService companies ${d.city}`],
     openGraph: { title, description: desc, type: 'website' },
     alternates: { canonical: `/tree-service/${params.city}` },
   }
 }
 
-export default function CityTree ServicePage({ params }: { params: { city: string } }) {
+export default function CityTreeServicePage({ params }: { params: { city: string } }) {
   const d = getCityData(params.city)
   if (!d) notFound()
   const top = d.providers[0]
 
   const costRows = [
-    ['Lawn Mowing (per visit)', d.costs.lawnMowingWeekly],
-    ['Monthly Lawn Maintenance', d.costs.lawnMowingMonthly],
-    ['Landscape Design & Install', d.costs.landscapeDesignInstall],
-    ['Sprinkler System Install', d.costs.sprinklerInstall],
-    ['Tree Trimming (small tree)', d.costs.treeTrimmingSmall],
-    ['Tree Trimming (large tree)', d.costs.treeTrimmingLarge],
-    ['Mulch Installation', d.costs.mulchInstall],
+    ['Tree Removal (basic)', d.costs.treeRemoval],
+    ['Tree Trimming & Pruning', d.costs.treeTrimming],
+    ['Stump Grinding (per stump)', d.costs.stumpGrinding],
+    ['Emergency Storm Cleanup', d.costs.emergencyCleanup],
   ]
 
   return (
@@ -71,7 +65,7 @@ export default function CityTree ServicePage({ params }: { params: { city: strin
         <div className="bg-white border-b border-gray-100 py-3 px-4 text-sm text-gray-500">
           <div className="max-w-6xl mx-auto flex items-center gap-2">
             <a href="/" className="hover:text-green-700">Home</a><span>›</span>
-            <a href="/tree-service" className="hover:text-green-700">Tree Service</a><span>›</span>
+            <a href="/tree-service" className="hover:text-green-700">TreeService</a><span>›</span>
             <span className="text-gray-900">{d.city}, {d.stateAbbr}</span>
           </div>
         </div>
@@ -80,19 +74,19 @@ export default function CityTree ServicePage({ params }: { params: { city: strin
           <div className="max-w-6xl mx-auto">
             <div className="max-w-3xl">
               <div className="flex items-center gap-2 text-green-200 text-sm mb-4">
-                <span>🌿 Tree Service</span><span>·</span><span>{d.city}, {d.stateAbbr}</span>
+                <span>🌿 TreeService</span><span>·</span><span>{d.city}, {d.stateAbbr}</span>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-                Best Tree Service Companies in {d.city}, {d.stateAbbr}
+                Best TreeService Companies in {d.city}, {d.stateAbbr}
               </h1>
               <p className="text-green-100 text-lg mb-6">
-                {d.providers.length} top-rated, licensed landscapers. Mowing from ${d.costs.lawnMowingWeekly.min}/visit. Tree Service projects from ${d.costs.landscapeDesignInstall.min.toLocaleString()}. Season: {d.tree-serviceSeason}.
+                {d.providers.length} top-rated, licensed tree service experts. Mowing from ${d.costs.lawnMowingWeekly.min}/visit. TreeService projects from ${d.costs.landscapeDesignInstall.min.toLocaleString()}. Season: {d.treeServiceSeason}.
               </p>
               <div className="flex flex-wrap gap-4 text-sm mb-6">
                 {[
-                  [`$${d.costs.lawnMowingWeekly.avg}`, 'avg mow visit'],
-                  [`$${d.costs.lawnMowingMonthly.avg}`, 'avg monthly plan'],
-                  [`${d.providers.length}`, 'top landscapers'],
+                  [`$${d.costs.lawnMowingWeekly.avg}`, 'avg removal'],
+                  [`$${d.costs.lawnMowingMonthly.avg}`, 'avg trimming'],
+                  [`${d.providers.length}`, 'top tree service experts'],
                 ].map(([val, label]) => (
                   <div key={label} className="bg-white/15 rounded-lg px-4 py-2">
                     <span className="font-bold text-lg">{val}</span>
@@ -114,7 +108,7 @@ export default function CityTree ServicePage({ params }: { params: { city: strin
             <div className="lg:col-span-2 space-y-12">
 
               <section id="providers">
-                <h2 className="text-2xl font-bold mb-6">Top Tree Service Companies in {d.city}</h2>
+                <h2 className="text-2xl font-bold mb-6">Top TreeService Companies in {d.city}</h2>
                 <div className="space-y-4">
                   {d.providers.map((p, i) => (
                     <div key={p.name} className="bg-white rounded-xl border border-gray-200 p-5 flex gap-4 hover:border-green-400 hover:shadow-sm transition-all">
@@ -140,7 +134,7 @@ export default function CityTree ServicePage({ params }: { params: { city: strin
               </section>
 
               <section id="costs">
-                <h2 className="text-2xl font-bold mb-4">Tree Service Costs in {d.city}, {d.stateAbbr}</h2>
+                <h2 className="text-2xl font-bold mb-4">TreeService Costs in {d.city}, {d.stateAbbr}</h2>
                 <p className="text-gray-600 mb-2 text-sm">{d.climateNote}.</p>
                 <p className="text-gray-600 mb-6 text-sm">Here are typical pricing ranges from local market data:</p>
                 <div className="overflow-x-auto rounded-xl border border-gray-200">
@@ -166,7 +160,7 @@ export default function CityTree ServicePage({ params }: { params: { city: strin
                   </table>
                 </div>
                 <div className="mt-4 p-4 bg-green-50 rounded-lg text-sm text-green-900">
-                  <strong>🌿 Spring Tip:</strong> Book now — top {d.city} landscapers fill their spring schedules by late April. Getting 3 quotes takes 2–3 days; waiting until May means waiting 3–6 weeks for availability.
+                  <strong>🌿 Spring Tip:</strong> Book now — top {d.city} tree service experts fill their spring schedules by late April. Getting 3 quotes takes 2–3 days; waiting until May means waiting 3–6 weeks for availability.
                 </div>
               </section>
 
@@ -183,7 +177,7 @@ export default function CityTree ServicePage({ params }: { params: { city: strin
               </section>
 
               <section id="faq">
-                <h2 className="text-2xl font-bold mb-6">FAQs: Tree Service in {d.city}</h2>
+                <h2 className="text-2xl font-bold mb-6">FAQs: TreeService in {d.city}</h2>
                 <div className="space-y-4">
                   {d.faqs.map((faq, i) => (
                     <details key={i} className="bg-white rounded-xl border border-gray-200 group">
@@ -202,20 +196,20 @@ export default function CityTree ServicePage({ params }: { params: { city: strin
               <div id="get-quotes" className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm sticky top-24">
                 <div className="text-center mb-5">
                   <div className="text-2xl mb-2">🌿</div>
-                  <h3 className="text-lg font-bold">Get Free Tree Service Quotes</h3>
-                  <p className="text-sm text-gray-600 mt-1">Connect with top {d.city} landscapers</p>
+                  <h3 className="text-lg font-bold">Get Free TreeService Quotes</h3>
+                  <p className="text-sm text-gray-600 mt-1">Connect with top {d.city} tree service experts</p>
                 </div>
-                <LeadCaptureForm city={d.city} stateAbbr={d.stateAbbr} serviceType="tree-service" />
+                <LeadCaptureForm city={d.city} stateAbbr={d.stateAbbr} serviceType="treeService" />
               </div>
 
               <div className="bg-green-50 rounded-2xl p-6">
-                <h3 className="font-bold mb-4 text-green-900">{d.city} Tree Service Facts</h3>
+                <h3 className="font-bold mb-4 text-green-900">{d.city} TreeService Facts</h3>
                 <div className="space-y-3 text-sm">
-                  <div className="flex justify-between"><span className="text-gray-600">Active season:</span><span className="font-medium text-xs text-right max-w-32">{d.tree-serviceSeason.split('(')[0].trim()}</span></div>
-                  <div className="flex justify-between"><span className="text-gray-600">Avg mow visit:</span><span className="font-medium">${d.costs.lawnMowingWeekly.avg}</span></div>
-                  <div className="flex justify-between"><span className="text-gray-600">Avg monthly plan:</span><span className="font-medium">${d.costs.lawnMowingMonthly.avg}</span></div>
+                  <div className="flex justify-between"><span className="text-gray-600">Active season:</span><span className="font-medium text-xs text-right max-w-32">{d.treeServiceSeason.split('(')[0].trim()}</span></div>
+                  <div className="flex justify-between"><span className="text-gray-600">Avg removal:</span><span className="font-medium">${d.costs.lawnMowingWeekly.avg}</span></div>
+                  <div className="flex justify-between"><span className="text-gray-600">Avg trimming:</span><span className="font-medium">${d.costs.lawnMowingMonthly.avg}</span></div>
                   <div className="flex justify-between"><span className="text-gray-600">Mulch install:</span><span className="font-medium">${d.costs.mulchInstall.avg}</span></div>
-                  <div className="flex justify-between"><span className="text-gray-600">Sprinkler install:</span><span className="font-medium">${d.costs.sprinklerInstall.avg.toLocaleString()}</span></div>
+                  <div className="flex justify-between"><span className="text-gray-600">Sprinkler install:</span><span className="font-medium">${d.costs.stump grindingInstall.avg.toLocaleString()}</span></div>
                 </div>
               </div>
 

@@ -1,11 +1,11 @@
 {
-  "slug": "austin-tx",
-  "city": "Austin",
-  "state": "Texas",
-  "stateAbbr": "TX",
-  "population": 978908,
-  "treeServiceSeason": "Year-round (Peak: Spring/Fall)",
-  "climateNote": "hot-dry",
+  "slug": "boston-ma",
+  "city": "Boston",
+  "state": "Massachusetts",
+  "stateAbbr": "MA",
+  "population": 675647,
+  "treeServiceSeason": "April\u2013October",
+  "climateNote": "humid-continental",
   "costs": {
     "treeRemoval": {
       "min": 450,
@@ -30,11 +30,11 @@
   },
   "providers": [
     {
-      "name": "Austin Tree Service Pros",
+      "name": "Boston Tree Service Pros",
       "rating": 4.9,
       "reviews": 156,
       "phone": "(555) 555-0100",
-      "address": "123 Arbor Way, Austin, TX",
+      "address": "123 Arbor Way, Boston, MA",
       "services": [
         "Tree Removal",
         "Trimming",
@@ -46,11 +46,11 @@
       "insured": true
     },
     {
-      "name": "Elite Tree Care Austin",
+      "name": "Elite Tree Care Boston",
       "rating": 4.8,
       "reviews": 98,
       "phone": "(555) 555-0200",
-      "address": "456 Oak Lane, Austin, TX",
+      "address": "456 Oak Lane, Boston, MA",
       "services": [
         "Tree Removal",
         "Emergency Storm Cleanup",
@@ -65,7 +65,7 @@
       "rating": 4.7,
       "reviews": 124,
       "phone": "(555) 555-0300",
-      "address": "789 Pine St, Austin, TX",
+      "address": "789 Pine St, Boston, MA",
       "services": [
         "Tree Trimming",
         "Pruning",
@@ -76,11 +76,11 @@
       "insured": true
     },
     {
-      "name": "Austin Stump & Tree",
+      "name": "Boston Stump & Tree",
       "rating": 4.6,
       "reviews": 67,
       "phone": "(555) 555-0400",
-      "address": "321 Maple Dr, Austin, TX",
+      "address": "321 Maple Dr, Boston, MA",
       "services": [
         "Stump Grinding",
         "Tree Removal",
@@ -93,20 +93,20 @@
   ],
   "faqs": [
     {
-      "question": "How much does tree removal cost in Austin, TX?",
-      "answer": "Tree removal in Austin typically costs between $450 and $2200, with an average cost of around $850. Prices vary based on the tree's height, location relative to structures, and complexity of the removal."
+      "question": "How much does tree removal cost in Boston, MA?",
+      "answer": "Tree removal in Boston typically costs between $450 and $2200, with an average cost of around $850. Prices vary based on the tree's height, location relative to structures, and complexity of the removal."
     },
     {
-      "question": "Do I need a permit for tree removal in Austin?",
-      "answer": "Permit requirements in Austin depend on the tree's size, species, and location (e.g., public right-of-way or protected heritage trees). It's best to check with the Austin planning or forestry department before starting work."
+      "question": "Do I need a permit for tree removal in Boston?",
+      "answer": "Permit requirements in Boston depend on the tree's size, species, and location (e.g., public right-of-way or protected heritage trees). It's best to check with the Boston planning or forestry department before starting work."
     },
     {
-      "question": "When is the best time for tree trimming in Austin?",
-      "answer": "For most species in Austin, late winter or early spring is the ideal time for structural pruning. However, emergency trimming or deadwood removal should be done immediately to prevent property damage."
+      "question": "When is the best time for tree trimming in Boston?",
+      "answer": "For most species in Boston, late winter or early spring is the ideal time for structural pruning. However, emergency trimming or deadwood removal should be done immediately to prevent property damage."
     }
   ],
   "buyerTips": [
-    "Always check for ISA Certification (International Society of Arboriculture) when hiring in Austin.",
+    "Always check for ISA Certification (International Society of Arboriculture) when hiring in Boston.",
     "Verify liability and workers' compensation insurance to protect yourself from accidents."
   ],
   "lastUpdated": "2026-04-05"

@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: { template: '%s | Tree ServiceServiceLocal.com', default: 'Find the Best Tree Service Companies Near You' },
-  description: 'Find the best local tree-service and lawn care companies. Real prices on lawn mowing, tree-service design, tree trimming, and sprinkler install. Free quotes.',
+  title: { template: '%s | TreeServiceServiceLocal.com', default: 'Find the Best TreeService Companies Near You' },
+  description: 'Find the best local treeService and tree service companies. Real prices on tree trimming, treeService design, tree trimming, and sprinkler install. Free quotes.',
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://tree-serviceservicelocal.com'),
 }
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2 font-bold text-xl text-green-700">
               <span className="text-2xl">🌿</span>
-              <span>Tree Service Service Local</span>
+              <span>TreeService Service Local</span>
             </a>
             <nav className="hidden md:flex items-center gap-6 text-sm text-gray-600">
               <a href="/tree-service" className="hover:text-green-700 transition-colors">Find Landscapers by City</a>

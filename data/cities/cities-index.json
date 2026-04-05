@@ -1,5 +1,11 @@
 [
   {
+    "slug": "fort-worth-tx",
+    "city": "Fort Worth",
+    "state": "Texas",
+    "stateAbbr": "TX"
+  },
+  {
     "slug": "dallas-tx",
     "city": "Dallas",
     "state": "Texas",
@@ -12,20 +18,14 @@
     "stateAbbr": "TX"
   },
   {
-    "slug": "san-antonio-tx",
-    "city": "San Antonio",
-    "state": "Texas",
-    "stateAbbr": "TX"
-  },
-  {
     "slug": "austin-tx",
     "city": "Austin",
     "state": "Texas",
     "stateAbbr": "TX"
   },
   {
-    "slug": "fort-worth-tx",
-    "city": "Fort Worth",
+    "slug": "san-antonio-tx",
+    "city": "San Antonio",
     "state": "Texas",
     "stateAbbr": "TX"
   },
@@ -40,54 +40,6 @@
     "city": "Scottsdale",
     "state": "Arizona",
     "stateAbbr": "AZ"
-  },
-  {
-    "slug": "tucson-az",
-    "city": "Tucson",
-    "state": "Arizona",
-    "stateAbbr": "AZ"
-  },
-  {
-    "slug": "las-vegas-nv",
-    "city": "Las Vegas",
-    "state": "Nevada",
-    "stateAbbr": "NV"
-  },
-  {
-    "slug": "henderson-nv",
-    "city": "Henderson",
-    "state": "Nevada",
-    "stateAbbr": "NV"
-  },
-  {
-    "slug": "atlanta-ga",
-    "city": "Atlanta",
-    "state": "Georgia",
-    "stateAbbr": "GA"
-  },
-  {
-    "slug": "charlotte-nc",
-    "city": "Charlotte",
-    "state": "North Carolina",
-    "stateAbbr": "NC"
-  },
-  {
-    "slug": "raleigh-nc",
-    "city": "Raleigh",
-    "state": "North Carolina",
-    "stateAbbr": "NC"
-  },
-  {
-    "slug": "nashville-tn",
-    "city": "Nashville",
-    "state": "Tennessee",
-    "stateAbbr": "TN"
-  },
-  {
-    "slug": "jacksonville-fl",
-    "city": "Jacksonville",
-    "state": "Florida",
-    "stateAbbr": "FL"
   },
   {
     "slug": "tampa-fl",
@@ -108,130 +60,28 @@
     "stateAbbr": "FL"
   },
   {
-    "slug": "birmingham-al",
-    "city": "Birmingham",
-    "state": "Alabama",
-    "stateAbbr": "AL"
+    "slug": "atlanta-ga",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "stateAbbr": "GA"
   },
   {
-    "slug": "louisville-ky",
-    "city": "Louisville",
-    "state": "Kentucky",
-    "stateAbbr": "KY"
+    "slug": "charlotte-nc",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "stateAbbr": "NC"
   },
   {
-    "slug": "chicago-il",
-    "city": "Chicago",
-    "state": "Illinois",
-    "stateAbbr": "IL"
+    "slug": "nashville-tn",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "stateAbbr": "TN"
   },
   {
-    "slug": "indianapolis-in",
-    "city": "Indianapolis",
-    "state": "Indiana",
-    "stateAbbr": "IN"
-  },
-  {
-    "slug": "columbus-oh",
-    "city": "Columbus",
-    "state": "Ohio",
-    "stateAbbr": "OH"
-  },
-  {
-    "slug": "kansas-city-mo",
-    "city": "Kansas City",
-    "state": "Missouri",
-    "stateAbbr": "MO"
-  },
-  {
-    "slug": "st-louis-mo",
-    "city": "St. Louis",
-    "state": "Missouri",
-    "stateAbbr": "MO"
-  },
-  {
-    "slug": "minneapolis-mn",
-    "city": "Minneapolis",
-    "state": "Minnesota",
-    "stateAbbr": "MN"
-  },
-  {
-    "slug": "milwaukee-wi",
-    "city": "Milwaukee",
-    "state": "Wisconsin",
-    "stateAbbr": "WI"
-  },
-  {
-    "slug": "cincinnati-oh",
-    "city": "Cincinnati",
-    "state": "Ohio",
-    "stateAbbr": "OH"
-  },
-  {
-    "slug": "cleveland-oh",
-    "city": "Cleveland",
-    "state": "Ohio",
-    "stateAbbr": "OH"
-  },
-  {
-    "slug": "detroit-mi",
-    "city": "Detroit",
-    "state": "Michigan",
-    "stateAbbr": "MI"
-  },
-  {
-    "slug": "philadelphia-pa",
-    "city": "Philadelphia",
-    "state": "Pennsylvania",
-    "stateAbbr": "PA"
-  },
-  {
-    "slug": "baltimore-md",
-    "city": "Baltimore",
-    "state": "Maryland",
-    "stateAbbr": "MD"
-  },
-  {
-    "slug": "washington-dc",
-    "city": "Washington",
-    "state": "District of Columbia",
-    "stateAbbr": "DC"
-  },
-  {
-    "slug": "richmond-va",
-    "city": "Richmond",
-    "state": "Virginia",
-    "stateAbbr": "VA"
-  },
-  {
-    "slug": "virginia-beach-va",
-    "city": "Virginia Beach",
-    "state": "Virginia",
-    "stateAbbr": "VA"
-  },
-  {
-    "slug": "denver-co",
-    "city": "Denver",
-    "state": "Colorado",
-    "stateAbbr": "CO"
-  },
-  {
-    "slug": "colorado-springs-co",
-    "city": "Colorado Springs",
-    "state": "Colorado",
-    "stateAbbr": "CO"
-  },
-  {
-    "slug": "albuquerque-nm",
-    "city": "Albuquerque",
-    "state": "New Mexico",
-    "stateAbbr": "NM"
-  },
-  {
-    "slug": "salt-lake-city-ut",
-    "city": "Salt Lake City",
-    "state": "Utah",
-    "stateAbbr": "UT"
+    "slug": "las-vegas-nv",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "stateAbbr": "NV"
   },
   {
     "slug": "los-angeles-ca",
@@ -246,57 +96,27 @@
     "stateAbbr": "CA"
   },
   {
-    "slug": "sacramento-ca",
-    "city": "Sacramento",
-    "state": "California",
-    "stateAbbr": "CA"
+    "slug": "denver-co",
+    "city": "Denver",
+    "state": "Colorado",
+    "stateAbbr": "CO"
   },
   {
-    "slug": "portland-or",
-    "city": "Portland",
-    "state": "Oregon",
-    "stateAbbr": "OR"
+    "slug": "chicago-il",
+    "city": "Chicago",
+    "state": "Illinois",
+    "stateAbbr": "IL"
   },
   {
-    "slug": "seattle-wa",
-    "city": "Seattle",
-    "state": "Washington",
-    "stateAbbr": "WA"
+    "slug": "new-york-ny",
+    "city": "New York",
+    "state": "New York",
+    "stateAbbr": "NY"
   },
   {
-    "slug": "memphis-tn",
-    "city": "Memphis",
-    "state": "Tennessee",
-    "stateAbbr": "TN"
-  },
-  {
-    "slug": "new-orleans-la",
-    "city": "New Orleans",
-    "state": "Louisiana",
-    "stateAbbr": "LA"
-  },
-  {
-    "slug": "oklahoma-city-ok",
-    "city": "Oklahoma City",
-    "state": "Oklahoma",
-    "stateAbbr": "OK"
-  },
-  {
-    "slug": "omaha-ne",
-    "city": "Omaha",
-    "state": "Nebraska",
-    "stateAbbr": "NE"
-  },
-  {
-    "slug": "pittsburgh-pa",
-    "city": "Pittsburgh",
-    "state": "Pennsylvania",
-    "stateAbbr": "PA"
-  },
-  {
-    "slug": "grand-rapids-mi",
-    "city": "Grand Rapids",
-    "state": "Michigan",
-    "stateAbbr": "MI"
+    "slug": "boston-ma",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "stateAbbr": "MA"
   }
 ]
