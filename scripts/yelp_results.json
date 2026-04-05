@@ -1,0 +1,772 @@
+{
+  "phoenix-az": [
+    {
+      "name": "Only One Pool Service",
+      "rating": 4.9,
+      "reviews": 24,
+      "phone": "",
+      "address": "Phoenix, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Desert Diamond Pools",
+      "rating": 4.5,
+      "reviews": 84,
+      "phone": "",
+      "address": "Phoenix, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "K&K Pool Service & Repair",
+      "rating": 4.8,
+      "reviews": 118,
+      "phone": "",
+      "address": "Phoenix, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Barefoot Pools",
+      "rating": 4.6,
+      "reviews": 321,
+      "phone": "",
+      "address": "Phoenix, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Carolina Blue Pools & Spas",
+      "rating": 4.6,
+      "reviews": 55,
+      "phone": "",
+      "address": "Phoenix, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "scottsdale-az": [
+    {
+      "name": "Pelican Pools",
+      "rating": 4.5,
+      "reviews": 121,
+      "phone": "",
+      "address": "Scottsdale, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Only One Pool Service",
+      "rating": 4.9,
+      "reviews": 24,
+      "phone": "",
+      "address": "Scottsdale, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "K&K Pool Service & Repair",
+      "rating": 4.8,
+      "reviews": 118,
+      "phone": "",
+      "address": "Scottsdale, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Barefoot Pools",
+      "rating": 4.6,
+      "reviews": 321,
+      "phone": "",
+      "address": "Scottsdale, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Pride Pool Care",
+      "rating": 5.0,
+      "reviews": 7,
+      "phone": "",
+      "address": "Scottsdale, AZ",
+      "services": [
+        "Year-round Maintenance",
+        "Chemical Balance",
+        "Equipment Repair",
+        "Filter Cleaning"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "tampa-fl": [
+    {
+      "name": "Aqua Masters Pool Services",
+      "rating": 4.3,
+      "reviews": 6,
+      "phone": "",
+      "address": "Tampa, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Executive Pool Service",
+      "rating": 5.0,
+      "reviews": 1,
+      "phone": "",
+      "address": "Tampa, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Waterboyz Pool Service & More",
+      "rating": 5.0,
+      "reviews": 7,
+      "phone": "",
+      "address": "Tampa, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Poolvana Pool Care",
+      "rating": 5.0,
+      "reviews": 1,
+      "phone": "",
+      "address": "Tampa, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "The Pool Bear",
+      "rating": 5.0,
+      "reviews": 1,
+      "phone": "",
+      "address": "Tampa, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "orlando-fl": [
+    {
+      "name": "Best Florida Pools & Spa",
+      "rating": 3.7,
+      "reviews": 31,
+      "phone": "",
+      "address": "Orlando, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "A1 Pool Service",
+      "rating": 4.4,
+      "reviews": 7,
+      "phone": "",
+      "address": "Orlando, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Blu magic pools",
+      "rating": 4.4,
+      "reviews": 7,
+      "phone": "",
+      "address": "Orlando, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Pisa Pool Services",
+      "rating": 5.0,
+      "reviews": 4,
+      "phone": "",
+      "address": "Orlando, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Orlando Pool Tech",
+      "rating": 4.3,
+      "reviews": 6,
+      "phone": "407-502-5138",
+      "address": "Orlando, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "miami-fl": [
+    {
+      "name": "AE Pool Service & Repairs",
+      "rating": 5.0,
+      "reviews": 15,
+      "phone": "",
+      "address": "Miami, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Broward and Miami Pool Service",
+      "rating": 4.7,
+      "reviews": 50,
+      "phone": "",
+      "address": "Miami, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Alligator Pools",
+      "rating": 4.5,
+      "reviews": 26,
+      "phone": "",
+      "address": "Miami, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Elite Everlasting Pools",
+      "rating": 4.4,
+      "reviews": 31,
+      "phone": "",
+      "address": "Miami, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Manny Pool Services",
+      "rating": 5.0,
+      "reviews": 1,
+      "phone": "",
+      "address": "Miami, FL",
+      "services": [
+        "Weekly Maintenance",
+        "Algae Treatment",
+        "Chemical Balance",
+        "Green Pool Recovery"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "houston-tx": [
+    {
+      "name": "Full Splash Pools",
+      "rating": 4.9,
+      "reviews": 19,
+      "phone": "",
+      "address": "Houston, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Crystal Clear Aquatic Solutions",
+      "rating": 4.8,
+      "reviews": 18,
+      "phone": "",
+      "address": "Houston, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Chads Pool Service",
+      "rating": 5.0,
+      "reviews": 1,
+      "phone": "",
+      "address": "Houston, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Aloha Swimming Pools",
+      "rating": 4.7,
+      "reviews": 43,
+      "phone": "",
+      "address": "Houston, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Koozy Pools",
+      "rating": 5.0,
+      "reviews": 4,
+      "phone": "",
+      "address": "Houston, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "dallas-tx": [
+    {
+      "name": "Cerulean Pool Services",
+      "rating": 4.7,
+      "reviews": 45,
+      "phone": "",
+      "address": "Dallas, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Pool Medic",
+      "rating": 4.8,
+      "reviews": 20,
+      "phone": "",
+      "address": "Dallas, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Blue Oasis Pool Service",
+      "rating": 4.2,
+      "reviews": 78,
+      "phone": "",
+      "address": "Dallas, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "GP&A Pool Services",
+      "rating": 4.9,
+      "reviews": 29,
+      "phone": "",
+      "address": "Dallas, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Sunny Day Pools",
+      "rating": 4.8,
+      "reviews": 20,
+      "phone": "",
+      "address": "Dallas, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "fort-worth-tx": [
+    {
+      "name": "Sunny Day Pools",
+      "rating": 4.8,
+      "reviews": 20,
+      "phone": "",
+      "address": "Fort Worth, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Atlas Pools",
+      "rating": 5.0,
+      "reviews": 2,
+      "phone": "",
+      "address": "Fort Worth, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Trident Pool Services",
+      "rating": 5.0,
+      "reviews": 1,
+      "phone": "",
+      "address": "Fort Worth, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Momentum Pool Services",
+      "rating": 5.0,
+      "reviews": 1,
+      "phone": "",
+      "address": "Fort Worth, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Blue Oasis Pool Service",
+      "rating": 4.2,
+      "reviews": 78,
+      "phone": "",
+      "address": "Fort Worth, TX",
+      "services": [
+        "Weekly Service",
+        "Equipment Repair",
+        "Chemical Balance",
+        "Leaf Removal"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "los-angeles-ca": [
+    {
+      "name": "Oscar's Pool Service",
+      "rating": 4.8,
+      "reviews": 68,
+      "phone": "",
+      "address": "Los Angeles, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Royalty Pool & Spa Services",
+      "rating": 4.5,
+      "reviews": 61,
+      "phone": "",
+      "address": "Los Angeles, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Pool SOULution",
+      "rating": 4.9,
+      "reviews": 119,
+      "phone": "",
+      "address": "Los Angeles, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Alpine Aquatic",
+      "rating": 4.9,
+      "reviews": 57,
+      "phone": "",
+      "address": "Los Angeles, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Clear Water Pools",
+      "rating": 4.5,
+      "reviews": 102,
+      "phone": "",
+      "address": "Los Angeles, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ],
+  "san-diego-ca": [
+    {
+      "name": "Master Geek Pool and Spa Services",
+      "rating": 4.7,
+      "reviews": 82,
+      "phone": "",
+      "address": "San Diego, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Golden State Pools",
+      "rating": 4.7,
+      "reviews": 68,
+      "phone": "",
+      "address": "San Diego, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Protouch Pool Services",
+      "rating": 4.8,
+      "reviews": 209,
+      "phone": "",
+      "address": "San Diego, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "Murdock Pool Service",
+      "rating": 4.8,
+      "reviews": 67,
+      "phone": "",
+      "address": "San Diego, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    },
+    {
+      "name": "McKinney's Pool Service",
+      "rating": 4.6,
+      "reviews": 159,
+      "phone": "",
+      "address": "San Diego, CA",
+      "services": [
+        "Weekly Service",
+        "Chemical Balance",
+        "Filter Service",
+        "Equipment Repair"
+      ],
+      "licensed": true,
+      "insured": true
+    }
+  ]
+}

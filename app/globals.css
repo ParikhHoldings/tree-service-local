@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pool-blue: #0EA5E9;
+  --pool-dark: #0C4A6E;
+}
+
+body {
+  @apply antialiased;
+}
+
+.rating-stars {
+  color: #F59E0B;
+}
+
+.provider-card {
+  @apply bg-white rounded-xl border border-gray-100 p-6 shadow-sm hover:shadow-md transition-shadow;
+}
+
+.cost-badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold;
+}

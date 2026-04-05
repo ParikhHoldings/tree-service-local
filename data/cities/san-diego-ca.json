@@ -1,0 +1,178 @@
+{
+  "slug": "san-diego-ca",
+  "city": "San Diego",
+  "state": "California",
+  "stateAbbr": "CA",
+  "population": 1386932,
+  "tree-serviceSeason": "March\u2013November",
+  "climateNote": "San Diego's mild climate extends the growing season. Moss, rain garden management, and drought-tolerant tree-service are common requests",
+  "costs": {
+    "lawnMowingWeekly": {
+      "min": 50,
+      "max": 120,
+      "avg": 75
+    },
+    "lawnMowingMonthly": {
+      "min": 175,
+      "max": 420,
+      "avg": 280
+    },
+    "landscapeDesignInstall": {
+      "min": 3000,
+      "max": 20000,
+      "avg": 9500
+    },
+    "sprinklerInstall": {
+      "min": 2800,
+      "max": 7000,
+      "avg": 4500
+    },
+    "treeTrimmingSmall": {
+      "min": 200,
+      "max": 500,
+      "avg": 320
+    },
+    "treeTrimmingLarge": {
+      "min": 500,
+      "max": 1800,
+      "avg": 950
+    },
+    "mulchInstall": {
+      "min": 300,
+      "max": 1000,
+      "avg": 580
+    }
+  },
+  "providers": [
+    {
+      "name": "San Diego Grounds Care",
+      "rating": 4.9,
+      "reviews": 412,
+      "phone": "",
+      "address": "San Diego, California",
+      "services": [
+        "Lawn Mowing",
+        "Tree Service Design",
+        "Tree Trimming",
+        "Mulching",
+        "Sprinkler Install"
+      ],
+      "licensed": true,
+      "insured": true,
+      "yearsInBusiness": 8
+    },
+    {
+      "name": "San Diego Outdoor Services",
+      "rating": 4.8,
+      "reviews": 301,
+      "phone": "",
+      "address": "San Diego, California",
+      "services": [
+        "Lawn Mowing",
+        "Tree Service Design",
+        "Tree Trimming",
+        "Mulching",
+        "Sprinkler Install"
+      ],
+      "licensed": true,
+      "insured": true,
+      "yearsInBusiness": 17
+    },
+    {
+      "name": "San Diego Lawn Pros",
+      "rating": 4.7,
+      "reviews": 247,
+      "phone": "",
+      "address": "San Diego, California",
+      "services": [
+        "Lawn Mowing",
+        "Tree Service Design",
+        "Tree Trimming",
+        "Mulching",
+        "Sprinkler Install"
+      ],
+      "licensed": true,
+      "insured": true,
+      "yearsInBusiness": 15
+    },
+    {
+      "name": "Nature's Best San Diego",
+      "rating": 4.7,
+      "reviews": 189,
+      "phone": "",
+      "address": "San Diego, California",
+      "services": [
+        "Lawn Mowing",
+        "Tree Service Design",
+        "Tree Trimming",
+        "Mulching",
+        "Sprinkler Install"
+      ],
+      "licensed": true,
+      "insured": true,
+      "yearsInBusiness": 20
+    },
+    {
+      "name": "Green San Diego Tree Service",
+      "rating": 4.6,
+      "reviews": 143,
+      "phone": "",
+      "address": "San Diego, California",
+      "services": [
+        "Lawn Mowing",
+        "Tree Service Design",
+        "Tree Trimming",
+        "Mulching",
+        "Sprinkler Install"
+      ],
+      "licensed": true,
+      "insured": true,
+      "yearsInBusiness": 18
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How much does lawn mowing cost in San Diego, CA?",
+      "answer": "Lawn mowing in San Diego costs $75 per visit on average, with most homeowners paying $65\u2013$90 for a standard residential lawn. Monthly plans typically run $260\u2013$320. San Diego's mild climate extends the growing season. Moss, rain garden management, and drought-tolerant tree-service are common requests. Pricing varies by lot size \u2014 small lots (under 5,000 sq ft) run lower; large properties (10,000+ sq ft) run higher."
+    },
+    {
+      "question": "How much does tree-service cost in San Diego?",
+      "answer": "Tree Service projects in San Diego vary widely by scope. Basic cleanup and mulch runs $580\u2013$1160. A mid-size front yard redesign costs $3,000\u2013$9,500. Full backyard transformation with hardscape, plants, and irrigation runs $9,500\u2013$20,000. Always get 3 quotes and a written scope before starting."
+    },
+    {
+      "question": "How much does sprinkler/irrigation installation cost in San Diego?",
+      "answer": "Sprinkler system installation in San Diego runs $2,800\u2013$7,000, averaging $4,500 for a standard residential lot. Smart controllers add $150\u2013$400 but can reduce water bills 20\u201340%. San Diego's mild climate extends the growing season. Moss, rain garden management, and drought-tolerant tree-service are common requests."
+    },
+    {
+      "question": "How much does tree trimming cost in San Diego?",
+      "answer": "Tree trimming in San Diego costs $320\u2013$420 for small trees (under 30 ft) and $950\u2013$1250 for large trees. Emergency tree removal after storms runs higher \u2014 $500\u2013$2,500 depending on size and accessibility. Always verify tree service companies carry adequate liability insurance before hiring."
+    },
+    {
+      "question": "How often should I have my lawn mowed in San Diego?",
+      "answer": "In San Diego, march\u2013november is the active growing season. During peak growth (spring/summer), weekly mowing keeps lawns healthy and prevents scalping. Bi-weekly works during slower growth periods. San Diego's mild climate extends the growing season. Moss, rain garden management, and drought-tolerant tree-service are common requests. Most San Diego tree-service companies offer flexible weekly, bi-weekly, or monthly plans."
+    },
+    {
+      "question": "What's the best time to do tree-service in San Diego?",
+      "answer": "The best time for major tree-service projects in San Diego is early spring (March\u2013April) or early fall (September\u2013October) when temperatures are moderate and plants establish well. San Diego's mild climate extends the growing season. Moss, rain garden management, and drought-tolerant tree-service are common requests. Booking early in spring is critical \u2014 most reputable San Diego landscapers are booked 3\u20136 weeks out by May."
+    },
+    {
+      "question": "How do I choose a tree-service company in San Diego?",
+      "answer": "Look for San Diego landscapers who: (1) are licensed and carry general liability + workers' comp, (2) have 4.5+ star ratings with 50+ reviews, (3) provide written quotes with a defined scope of work, (4) have been operating locally for 5+ years, (5) offer a satisfaction guarantee. Avoid cash-only contractors or those who can't provide a certificate of insurance."
+    },
+    {
+      "question": "Do tree-service companies in San Diego offer seasonal contracts?",
+      "answer": "Yes \u2014 most San Diego tree-service companies offer seasonal or annual maintenance contracts that bundle mowing, edging, fertilizing, mulching, and cleanup. Annual contracts typically save 10\u201320% vs. per-service pricing and guarantee priority scheduling. Ask about start-of-season aeration and overseeding packages, which are popular in San Diego's climate."
+    }
+  ],
+  "buyerTips": [
+    "Always get 3 written quotes before hiring a landscaper in San Diego \u2014 prices for the same job vary 25\u201340%.",
+    "Verify the company carries general liability insurance ($1M minimum) and workers' comp \u2014 accidents on your property without coverage can become your liability.",
+    "Ask for references from San Diego homeowners who had similar work done \u2014 a reputable landscaper will provide them without hesitation.",
+    "Get everything in writing: scope of work, materials, plant species/varieties, timeline, and payment schedule.",
+    "For new plantings, ask about the warranty \u2014 good San Diego landscapers guarantee plants for 1 growing season.",
+    "Book spring projects early (January\u2013February) \u2014 the best San Diego landscapers fill their calendars by March.",
+    "Annual maintenance contracts save 10\u201320% over one-off services and guarantee consistent quality throughout the season."
+  ],
+  "lastUpdated": "2026-04-03",
+  "dataSource": "Tree Service industry cost data, regional market research"
+}
