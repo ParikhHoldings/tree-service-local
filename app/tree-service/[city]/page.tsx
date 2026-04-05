@@ -208,8 +208,8 @@ export default function CityTreeServicePage({ params }: { params: { city: string
                   <div className="flex justify-between"><span className="text-gray-600">Active season:</span><span className="font-medium text-xs text-right max-w-32">{d.treeServiceSeason.split('(')[0].trim()}</span></div>
                   <div className="flex justify-between"><span className="text-gray-600">Avg removal:</span><span className="font-medium">${d.costs.treeRemoval.avg}</span></div>
                   <div className="flex justify-between"><span className="text-gray-600">Avg trimming:</span><span className="font-medium">${d.costs.treeTrimming.avg}</span></div>
-                  <div className="flex justify-between"><span className="text-gray-600">Mulch install:</span><span className="font-medium">${d.costs.mulchInstall.avg}</span></div>
-                  <div className="flex justify-between"><span className="text-gray-600">Sprinkler install:</span><span className="font-medium">${d.costs.stump grindingInstall.avg.toLocaleString()}</span></div>
+                  <div className="flex justify-between"><span className="text-gray-600">Emergency cleanup:</span><span className="font-medium">${d.costs.emergencyCleanup.avg}</span></div>
+                  <div className="flex justify-between"><span className="text-gray-600">Stump grinding:</span><span className="font-medium">${d.costs.stumpGrinding.avg.toLocaleString()}</span></div>
                 </div>
               </div>
 
